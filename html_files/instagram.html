@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body{
+	background-color: #fafafa;
+}
+main{
+	display: flex;
+	justify-content: space-around;
+    
+}
+a{
+	text-decoration: none;
+}
+.left{
+	margin-left: 15%;
+
+}
+.left img{
+	height: 618px;
+    margin-top: 20%;
+}
+.left img:hover{
+	transform: scale(1.1);
+	transition: 0.6s;
+}
+
+.login-box{
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	margin-top: 60px;
+	margin-right: 100px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border-radius: 1px;
+}
+.login-box h1{
+	padding: 20px 0;
+	font-size: 35px;
+
+}
+.input-box{
+	padding: 10px;
+
+}
+.input-box input{
+	width: 80%;
+	margin: 0 0 15px;
+	padding: 7px;
+	background-color: #fafafa;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+	font-size: 12px;
+}
+.input-box .login{
+	background-color: #0FA3F4;
+	color: #fff;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+}
+.login-box p{
+	font-size: 18px;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	
+}
+.login-fb {
+	font-size: 15px ;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	color: #385185;
+}
+
+.signin{
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	margin-top: 15px;
+	margin-right: 100px;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    border-radius: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.app{
+	text-align: center;
+	margin-right: 15%;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+    
+}
+.app img{
+    height: 80px;
+    background-image: none;
+}
+
+@media (max-width:700px){
+	.left{
+		display: none;
+	}
+	.right{
+		margin-left: 6%
+	}
+}
+footer{
+            height: 90%;
+            width: 100%;
+            background-color:whitesmoke;
+            border: 1px solid lightblue;
+            margin-top: 500px;
+            padding: 20px;
+        }
+        h5{
+            text-align: center;
+            word-spacing: 5px;
+            color: black;
+        }
+</style>
+</head>
+<body>
+
+	<main>
+		<div class="left">
+			<img src="https://w7.pngwing.com/pngs/450/269/png-transparent-space-gray-iphone-x-showing-ios-and-iphone-4-iphone-8-plus-iphone-5-iphone-x-iphone-apple-gadget-electronics-mobile-phone-thumbnail.png">
+            
+		</div>
+
+		<div class="right">
+			<div class="login-box">
+				<h1><b><i>Instagram</i></b></h1>
+				<div class="input-box">
+					<input type="text" name="username" placeholder="Phone number, Username or email"><br>
+					<input type="password" name="password" placeholder="Password"><br>
+					<input type="submit" name="login" value="Log In" class="login">
+				</div>
+				<p>OR</p>
+				<div class="login-fb">
+					<i class="fa fa-facebook-official"></i>    <a href="#">Login with facebook</a>
+					<p>Forget Password?</p>  
+				</div>
+
+			</div>
+			<div class="signin">
+				<p>Don't have an account? <a href="#">SignIn</a></p>
+			</div>
+			<div class="app">
+				<p>Get it</p>
+				<img src="https://e7.pngegg.com/pngimages/402/719/png-clipart-google-play-google-logo-mobile-app-app-store-play-store-label-text-thumbnail.png" height="40px">
+				<img src="https://w7.pngwing.com/pngs/314/368/png-transparent-itunes-app-store-apple-logo-apple-text-rectangle-logo.png" height="40px">
+			</div>
+		</div>
+	</main>
+    <footer>
+        <h5>Meta about Blog Jobs Help API Privacy Terms TopAccount Locations Instagram Lite Threads ContactUploading & Non-Users Meta Verified</h5>
+        <h5>English © 2023 Instagram from Meta</h5>
+        </footer>  
+</body>
+</html>

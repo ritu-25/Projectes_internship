@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100px;
+            width: 500px;
+            background-color: chartreuse;
+            animation-name: Ritu;
+            animation-duration: 5s;
+            border-radius: 100px;
+            -o-animation: alternate;
+            text-align: center;
+            color: aliceblue;
+            animation-iteration-count: 2;
+            border: 2px solid black;
+            position: relative;
+
+        }
+        @keyframes Ritu{
+            from{
+                /* width: 10%;  */
+                width: 100px;
+                background-color: darkgoldenrod;
+                background-color: blue;
+                border-radius: 3px;
+                border: 2px solid black;
+                height: 10px;
+                position: absolute;
+            }
+
+            to{
+                /* width: 100%;  */
+                width: 1000px;
+                background-color: cornflowerblue;
+                background-color: brown;
+                height: 200px;
+            
+            }
+        }
+        /* @keyframes Ritu{
+        0%{
+            left: 0;
+            top: 0;
+            background-color: chartreuse;
+        }
+        25%{
+            top: 0;
+            left: 500px:
+            
+        }
+        50%{
+            top: 500px;
+            left: 500px;
+            background-color: chocolate;
+        }
+        75%{
+            top: 500px;
+            left: 500;
+            background-color: deeppink;
+        }
+        100%{
+            left: 0;
+            top: 0;
+            background-color: gold;
+        }
+    } 
+*/
+    .container1{ 
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            position: relative;
+            display: flex;
+            animation-name: Ribha;
+            animation-duration: 5s;
+            border-radius: 300px;
+
+
+        }
+        @keyframes Ribha{
+
+        0%{
+            left: 0;
+            top: 0;
+            background-color: lawngreen;
+        }
+
+
+        25%{
+            top: 0px;
+            left: 500px;
+            background-color: brown;
+            
+        }
+        50%{
+            top: 500px;
+            left: 500px;
+            background-color: chocolate;
+        }
+        75%{
+            top: 500px;
+            left: 500;
+            background-color: deeppink;
+        }
+        100%{
+            left: 0;
+            top: 0;
+            background-color: gold;
+        }
+    } 
+    .container2{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            position: relative;
+            display: flex;
+            animation-name: Richa;
+            animation-duration: 5s;
+
+    }
+    @keyframes Richa {
+        0%{
+            left: 0;
+            top: 0;
+            background-color: lawngreen;
+        }
+        25%{
+            top: 0;
+            left: 500px;
+            background-color: chartreuse;
+            
+        }
+        50%{
+            top: 500px;
+            left: 500px;
+            background-color: chocolate;
+        }
+        75%{
+            top: 500px;
+            left: 500;
+            background-color: deeppink;
+        }
+        100%{
+            left: 0;
+            top: 0;
+            background-color: gold;
+        }
+    } 
+        .box{
+            height: 200px;
+            width: 50px;
+            background-color: lightsalmon;
+            position: relative;
+            display: inline-block;
+            animation-name: Charu;
+            animation-duration: 5s;
+            
+        }
+        @keyframes Charu {
+        0%{
+            left: 0;
+            top: 0;
+            background-color: lawngreen;
+        }
+        25%{
+            top: 0;
+            left: 500px;
+            background-color: crimson;
+        
+        }
+        50%{
+            top: 500px;
+            left: 500px;
+            background-color: chocolate;
+        }
+        75%{
+            top: 500px;
+            left: 500;
+            background-color: deeppink;
+        }
+        100%{
+            left: 0;
+            top: 0;
+            background-color: gold;
+        }
+    } 
+    .box2{   
+            height: 200px;
+            width: 50px;
+            background-color: lightsalmon;
+            position: relative;
+            display: inline-block;
+            animation-name: Mahak;
+            animation-duration: 5s;
+            position: relative;
+            padding-right: 8px;
+            margin-left: 85px;
+            /* margin-left: 180px; */
+            /* left: 149px;
+            bottom: 200px; */
+    }
+            
+    
+        
+         @keyframes Mahak {
+        0%{
+            left: 0;
+            top: 0;
+            background-color: lawngreen;
+        }
+        25%{
+            top: 0;
+            left: 500px;
+            background-color: darkorange;
+        
+        }
+        50%{
+            top: 500px;
+            left: 500px;
+            background-color: chocolate;
+        }
+        75%{
+            top: 500px;
+            left: 500;
+            background-color: deeppink;
+        }
+        100%{
+            left: 0;
+            top: 0;
+            background-color: gold;
+        }
+    }  
+    .container3{
+        display: flex;
+    }
+    .item{
+            height: 200px;
+            width: 300px;
+            margin: auto;
+            margin-top: 200px;
+            background-color:yellow;
+            /* transition-property:background-color,border-radius,height,width ;
+            transition-duration: 5s; */
+            transition: all 5s;
+            margin: 10px;
+           
+
+    }
+    .item:hover{
+            height: 100px;
+            width: 100px;
+            cursor: pointer;
+            border-radius:250px ;
+            background-color: black;
+            background-color: blueviolet;
+            /* transform: rotate(90deg); */
+            transform: rotate3d(180deg);
+            transform: rotateX('angle');
+            transform: matrix(180deg);
+            transform:scale(1.5);
+            transform: skew(-90deg);
+            /* transform: translateX(-500px); */
+            transform: translateY(500px);
+    }
+    </style> 
+</head>
+<body>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat.
+    </div>
+    <br>
+    <div class="container1">
+        
+    </div>
+    <div class="container2">
+        
+    </div>
+    <div class="box"></div>
+    <div class="box2"></div>
+
+<div class="container3">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+</body>
+</html>

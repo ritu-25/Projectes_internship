@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First web Page</title>
+</head>
+<style>
+    header{
+        height: 100px;
+        width: 100%;
+        background-color: aqua;
+        text-align: center;
+    }
+    .container-fluid{
+        /* height: 300px;
+        width: 100%; */
+        background-color: burlywood;
+        padding-top: 30px;
+        padding-left: 40px;
+        
+    }
+    .id1{
+        position: relative;
+        display: inline-block;
+        margin: 30px;
+    }
+    .id2{
+        position: relative;
+        display: inline-block;
+        margin: 30px;
+    }
+    .id3{
+        position: relative;
+        display: inline-block;
+        margin: 30px;
+    }
+    .class{
+        height: 500px;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    fieldset{
+        width: 40%;
+        height: 420px;
+        border: solid cornflowerblue;
+        background-color: cornflowerblue;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .box{
+        position:relative ;
+        display: inline-block;
+        padding-left: 90px;
+        height: 200px;
+        
+
+        }
+    footer{
+        height: 100px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+</style>
+<body>
+    
+    <header>
+        <marquee behavior="" direction="up"><center><h1 span style="color: red;"><b>First Web Page</span></h1></center></marquee>
+    </header>
+    
+    <div class="container-fluid">
+        <div class="id1">
+            <img src="https://source.unsplash.com/300x200/?river" alt="">
+        </div>
+        <div class="id2">
+            <img src="https://source.unsplash.com/300x200/?mountain" alt="">
+        </div>
+        <div class="id3">
+            <img src="https://source.unsplash.com/300x200/?nature" alt="">
+        </div>
+        <div class="id3">
+            <img src="https://source.unsplash.com/300x200/?rainbow" alt="">
+        </div>
+        
+    </div>
+    <div class="class">
+        <fieldset>
+            <form action="">
+                <label>Name</label> : <input type="text" required autofocus placeholder="Enter your name"><br>
+                <label>Email</label> :<input type="email" required placeholder="Enter your email"><br>
+                <label>Password</label> : <input type="password" required placeholder="Enter your password"><br>
+                <label>gender</label> : <input type="radio" name="gender">Male
+                                        <input type="radio"name="gender">Femalebr<br><br>
+            
+                <label>Language</label> : <input type="checkbox">Hindi
+                            <input type="checkbox">English
+                            <input type="checkbox">Tamil <br><br>
+                <label>Date</label> : <input type="date"><br><br>
+                <label>Time</label> : <input type="time"><br><br>
+                <label>Color</label> : <input type="color"><br><br>
+                <label>Range</label> : <input type="range"><br><br>
+                <input type="text" placeholder="name" value="Ritu Saini" disabled><br>
+                <textarea name="" id="" cols="30" rows="4" placeholder="message"></textarea><br>
+                <button>Submit</button>
+            </form>
+        </fieldset>
+            <div class="box">
+                <img src="https://source.unsplash.com/400x300/?management" alt="">
+            </div>
+    </div>
+<footer>
+    <marquee behavior="" direction=""><center><h2>This is Footer Section here some important links to be provided below the footer</h2></center></marquee>
+    <a href="https://Google.com" target="_blank">Google</a>
+    <a href="https://instagram.com">Instagram</a>
+</footer>
+</body>
+</html>
