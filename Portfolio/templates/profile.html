@@ -1,0 +1,159 @@
+{% extends 'home.html' %}
+{% block profile %}
+{% load static %}
+<div class="container my-0 ">
+  <h2 class="cardtitle text-center my-4 py-3">My Profile</h2>
+  <div class="row">
+    <div class="box-sm-6 box-lg-4 mb-4" style="position: absolute; left: 5%; top: 80rem;">
+    <div class="card py-2 my-1 px-3 pb-4" style="width: 20rem;">
+        <img src="{% static 'ritu.jpg'%}" class="card-img-top" alt="..." style="height: 400px;">
+        <div class="card-body">
+          <h4 class="card-title">Ritu Saini</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <a class="icon-link" href="#">
+            <img src="{% static 'archive.svg'%}"width="20px" height="20px"alt="" >
+            Developer
+          </a>
+          <a class="icon-link" href="#">
+          <img src="{% static 'home.svg'%}"width="20px" height="20px" alt="">
+            Jaipur
+        </a>
+        <a class="icon-link" href="#">
+          <img src="{% static 'mail.svg'%}"width="20px" height="20px" alt="">
+          ex@mail.com
+        </a>
+        <a class="icon-link" href="#">
+          <img src="{% static 'phone.svg'%}"width="20px" height="20px" alt="">
+            9852366552
+          </a>
+        <div class="card-body">
+          <a class="icon-link" href="#">
+            <img src="{% static 'gear-fill.svg'%}" width="20px" height="20px"alt=""><br>
+           <h4 style="color: black;">Skills</h4>
+          </a>
+          <p>Django</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%"></div>
+          </div>
+          
+          <p>Frontend</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 90%"></div>
+          </div>
+          <p>Backend</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 70%"></div>
+          </div>
+          
+          <p>Python</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%"></div>
+          </div>
+          <p>C++ Language</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%"></div>
+          </div>
+          <p>C Language</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="card-body">
+          <a class="icon-link" href="#">
+            <img src="{% static 'globe.svg'%}" alt="">
+        <h4 class="card-title" style="color: black;">Language</h4>
+          </a>
+          <p>English</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 90%"></div>
+          </div>
+          
+          <p>Hindi</p>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 100%"></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="box-sm-6 box-lg-5 mb-4 pb-4" style="position: absolute;left: 40%; top: 80rem; width: 45rem;">
+    <div class="card p-3">
+        <figure class="p-3 mb-0">
+          <blockquote class="blockquote">
+            <div class="card-body">
+              <a class="icon-link" href="#">
+                <img src="{% static 'briefcase-fill.svg'%}" width="35px" height="35px"alt=""> <br>
+            <h1>Work Experience</h1>
+              </a>
+            <h4>Front End Developer</h4>
+            <div class="card-body">
+              <a class="icon-link" href="#">
+                <img src="{% static 'calendar3.svg'%}" width="20px" height="20px"alt="">
+            <h4 class="card-title" style="color:mediumseagreen;">Jan 2023-</h4>
+            <input type="button" value="Current">
+              </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptate provident ea cupiditate ad nostrum iste qui. Adipisci, maiores fugit!A well-known quote, contained in a blockquote element.</p>
+            <h4>Wev Developer/ritu@coder.com</h4>
+            <a class="icon-link" href="#">
+              <img src="{% static 'calendar3.svg'%}" width="20px" height="20px"alt="">
+          <h4 class="card-title" style="color:mediumseagreen;">Jan 2022-july 2023 </h4>
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas quia asperiores commodi facere eveniet iusto consequatur tempora sequi, eos iste repellat, non dolor! Magni iste libero delectus fugit officiis!</p>
+            <h4>Django Developer/ritu@coder.com</h4>
+            <a class="icon-link" href="#">
+              <img src="{% static 'calendar3.svg'%}" width="20px" height="20px"alt="">
+          <h4 class="card-title" style="color:mediumseagreen;">Jan 2022-july 2023 </h4>
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas quia asperiores commodi facere eveniet iusto consequatur tempora sequi, eos iste repellat, non dolor! Magni iste libero delectus fugit officiis!</p>
+            
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-body-secondary">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="box-sm-6 box-lg-5 mb-4 pb-4" style="position: absolute;left: 40%; top: 132rem; width: 45rem;">
+        <div class="card p-3">
+            <figure class="p-3 mb-0">
+              <blockquote class="blockquote">
+                <div class="card-body">
+                  <a class="icon-link" href="#">
+                    <img src="{% static 'star-fill.svg'%}" width="35px" height="35px"alt=""><br>
+                <h1>Education</h1>
+                  </a>
+                
+                <h4>Poornima Institute of Engineering & Technology</h4>
+                <a class="icon-link" href="#">
+                  <img src="{% static 'calendar3.svg'%}" width="20px" height="20px"alt="">
+              <h4 class="card-title" style="color:mediumseagreen;">Forever</h4>
+                </a>
+                <p>Artificial Intellegence & Data Science</p>
+
+                <h4>Jagatpura Central Academy</h4>
+                <a class="icon-link" href="#">
+                  <img src="{% static 'calendar3.svg'%}" width="20px" height="20px"alt="">
+              <h4 class="card-title" style="color:mediumseagreen;">Forever</h4>
+                </a>
+                <p>A well-known quote, contained in a blockquote element.</p>
+
+                <h4>Codding Skills</h4>
+                <a class="icon-link" href="#">
+                  <img src="{% static 'calendar3.svg'%}" width="20px" height="20px"alt="">
+              <h4 class="card-title" style="color:mediumseagreen;">Forever</h4>
+                </a>
+                <p>Learn from Regex Software Services.</p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-body-secondary">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+{% endblock profile %}

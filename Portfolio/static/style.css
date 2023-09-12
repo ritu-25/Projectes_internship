@@ -1,0 +1,7 @@
+/* .list-group img{
+    display: flex;
+    justify-content: left;
+} */
+.box{
+    display: inline-block;
+}

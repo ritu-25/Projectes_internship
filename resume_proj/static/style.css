@@ -1,0 +1,12 @@
+/* .list-group img{
+    display: flex;
+    justify-content: left;
+} */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    
+}
